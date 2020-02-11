@@ -2,6 +2,8 @@
 
 Build the images and run the containers:
 
+Create a .env.dev file a the root.
+
 ```sh
 docker-compose up -d --build
 ```
