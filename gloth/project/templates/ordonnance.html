@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% block content %}
+<header style="background:#ffffff; color:#2c3e50;">
+    <div class="container" id="maincontent" tabindex="-1">
+
+    <div class="d-flex">
+      <div class="top">Identification du prescripteur</div>
+      <div class="top"></div>
+    </div>
+    <hr>
+    <p>Prescriptons relatives au traitement de l'affection de longue durée reconnue (liste ou hors liste)</p>
+    <p class="text-center">(AFFECTION EXONERANTE)</p>
+    <hr>
+    <div class="middle">
+        {%for i in que %}
+          {{ i. }}
+        {% endfor %}
+      </div>
+    <hr>
+    <p>Prescriptons SANS RAPPORT avec l'afection de longue durée</p>
+    <p class="text-center">(MALADIES INTERCURRENTES)</p>
+    <hr>
+    <div class="end"></div>
+    </div>
+</header>
+
+<style>
+  .top{
+    border: 1px solid grey;
+    width: 50%;
+    margin:0px 25px;
+    height: 175px;
+  }
+
+  hr{
+    border-color: black;
+    border: 1px solid;
+    width: 96%;
+  }
+
+  .middle{
+    height: 300px;
+    margin-left: 3%;
+    text-align: left;
+  }
+
+  .end{
+    height: 150px;
+    margin-left: 3%;
+    text-align: left;
+  }
+</style>
+
+{% endblock%}

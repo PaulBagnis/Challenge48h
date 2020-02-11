@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f320177e-a502-4fd4-aa38-e727c2be3851" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XcHiAWTAc97jarAtbl4HMolp60" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f320177e-a502-4fd4-aa38-e727c2be3851" name="Default Changelist" comment="" />
+      <created>1581338587667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581338587667</updated>
+      <workItem from="1581338599402" duration="253000" />
+      <workItem from="1581340987454" duration="3000000" />
+      <workItem from="1581365487352" duration="22009000" />
+      <workItem from="1581408032687" duration="493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="59" key="SettingsEditor" timestamp="1581338689399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581338689399" />
+    <state x="68" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581408041091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="68" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581408041091" />
+  </component>
+</project>
