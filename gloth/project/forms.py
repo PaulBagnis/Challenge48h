@@ -14,11 +14,11 @@ class PatientForm(FlaskForm):
 class MedicForm(FlaskForm):
     submit = SubmitField("Valider")
 
-class PosologyForm(FlaskForm):
-    comprime = SelectField("COMPRIMÉ PAR PRISE", validators = [validators.InputRequired()], id = "pathology", choices = pathologyChoices())
-    prise = SelectField("PRISE PAR JOUR", validators = [validators.InputRequired()], id = "user", choices = userChoices())
-    duree = SelectField("DURÉE DU TRAITEMENT", validators = [validators.InputRequired()], id = "user", choices = userChoices())
-    submit = SubmitField("Valider")
+# class PosologyForm(FlaskForm):
+#     comprime = SelectField("COMPRIMÉ PAR PRISE", validators = [validators.InputRequired()], id = "pathology", choices = pathologyChoices())
+#     prise = SelectField("PRISE PAR JOUR", validators = [validators.InputRequired()], id = "user", choices = userChoices())
+#     duree = SelectField("DURÉE DU TRAITEMENT", validators = [validators.InputRequired()], id = "user", choices = userChoices())
+#     submit = SubmitField("Valider")
 
 
 

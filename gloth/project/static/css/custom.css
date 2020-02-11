@@ -420,6 +420,7 @@ input#submit {
     background: none;
     width: auto;
     color:white;
+    cursor: pointer;
 }
 
 
@@ -676,6 +677,7 @@ textarea{
     outline: none;
     background: #2c3e50;;
     color: #fff;
+    cursor: pointer;
 }
 
 .smallbutton{

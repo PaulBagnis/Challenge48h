@@ -13,7 +13,7 @@
                         <div class="longcolumn">
                           <div class="rowrapper">
                             <h4 id="labels">{{ patient_form.pathology.label }}</h4>
-                            {{ patient_form.pathology() }}
+                            {{ patient_form.pathology(class_="form-control text-capitalize") }}
                           </div>
                         </div>
                       </div>
@@ -21,13 +21,13 @@
                         <div class="longcolumn">
                           <div class="rowrapper">
                             <h4 id="labels">{{ patient_form.user.label }}</h4>
-                            {{ patient_form.user() }}
+                            {{ patient_form.user(class_="form-control") }}
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="longcolumn text-center">
-                          <button type="submit" class='button'">{{ patient_form.submit }}</button>
+                          <button type="submit" class='button'>{{ patient_form.submit }}</button>
                         </div>
                       </div>
                     </fieldset>
