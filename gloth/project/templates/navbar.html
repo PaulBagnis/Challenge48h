@@ -1,0 +1,41 @@
+{% block navbar %}
+<nav class="blue-grey darken-3">
+	<div class="nav-wrapper">
+		<form>
+			<div class="input-field">
+				<input id="search" type="search" required>
+				<label class="label-icon" for="search"><i class="blue-grey-text material-icons">search</i></label>
+				<i class="material-icons">close</i>
+			</div>
+		</form>
+	</div>
+</nav>
+
+<nav class="nav-extended blue-grey darken-4">
+	<div style="text-align:center;" class="nav-wrapper">
+		<a href="#accueil" class="brand-logo">&nbsp;&nbsp;{{title}}</a>
+		<br>
+		<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			{% if name.is_authenticated %}
+			<li>
+				<a id="header" href="/">Diagnostic</a>
+			</li>
+			<li>
+				<a id="header" href="/logout">Déconnexion</a>
+			</li>
+			{% endif %}
+		</ul>
+	</div>
+	<div class="nav-content">
+		<ul class="tabs tabs-fixed-width blue-grey darken-4">
+			<li class="tab"><a class="active white-text" href="index.html#accueil">Accueil</a></li>
+			<li class="tab"><a class="white-text" href="index.html#medicaments">Médicaments</a></li>
+			<li class="tab"><a class="white-text" href="index.html#connexion">Connexion</a></li>
+		</ul>
+	</div>
+</nav>
+<ul class="sidenav" id="mobile-demo">
+	<li><a href="developpeurs.html">Développeurs</a></li>
+</ul>
+{% endblock%}
